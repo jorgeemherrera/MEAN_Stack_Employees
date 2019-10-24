@@ -19,6 +19,7 @@ app.use(express.json()); //<-- Entender/convertir en formato JSON
 /**
  * Routes
  */
+app.use('/api/employees',require('./routes/employee.routes'));
 
 /**
  * Starting Server
