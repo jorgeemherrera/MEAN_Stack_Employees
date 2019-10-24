@@ -1,0 +1,35 @@
+{
+  "name": "mean_stack_employees",
+  "version": "1.0.0",
+  "description": "MEAN Stack of employees CRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgeemherrera/MEAN_Stack_Employees.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Angular",
+    "Node.js",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Jorge Eliécer Muñoz Herrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgeemherrera/MEAN_Stack_Employees/issues"
+  },
+  "homepage": "https://github.com/jorgeemherrera/MEAN_Stack_Employees#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.6",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
